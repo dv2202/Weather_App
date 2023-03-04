@@ -241,3 +241,6 @@ h1{
     width: 100%;
     max-width: 300px;
 }
+.api-error-container p{
+    text-transform: capitalize;
+}

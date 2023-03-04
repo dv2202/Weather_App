@@ -153,6 +153,6 @@ async function fetchSearchWeatherInfo(city){
     catch(error){
         loadingScreen.classList.remove("active");
         apiErrorContainer.classList.add("active");
-        apiErrorMessage.innerText = `${error.message}`;
+        apiErrorMessage.innerText= `${error.message}`;
     }
 }
